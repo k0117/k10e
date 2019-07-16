@@ -200,13 +200,13 @@ header img {
 }
 form {
   display: block;
-  width: 80%;
+  width: 600px;
   margin: auto;
 }
 form input {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 100%;
   margin-bottom: 20px;
   font-size: 18px;
   padding: 10px;
@@ -216,7 +216,7 @@ form textarea {
   display: block;
   margin: auto;
   resize: none;
-  width: 80%;
+  width: 100%;
   margin-bottom: 20px;
   font-size: 18px;
   padding: 10px;
@@ -226,7 +226,7 @@ form textarea {
 form input[type='submit'] {
   -webkit-appearance: none;
   border-radius: 0;
-  width: 200px;
+  width: 100%;
   cursor: pointer;
 }
 form input[type='submit']:hover {
@@ -296,9 +296,9 @@ footer {
 
   /* Contact */
   form {
-    width: 100%;
+    width: 80%;
   }
   form input[type='submit'] {
-    width: 80%;
+    width: 100%;
   }
 }
